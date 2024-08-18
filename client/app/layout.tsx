@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import ReactQueryProvider from "@/utils/providers/ReactQueryProvider";
 import "./globals.css";
-
+import { SearchProvider } from "@/utils/contexts/searchContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ReactQueryProvider>
-          <main>{children}</main>
+          <SearchProvider>
+            <main>{children}</main>
+          </SearchProvider>
         </ReactQueryProvider>
       </body>
     </html>
