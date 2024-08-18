@@ -1,0 +1,30 @@
+.Navbar {
+  background-color: #1b1b1b;
+  height: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  padding: clamp(0.5rem, 1vw, 0.8rem) 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteLogo {
+  margin-left: 4%;
+  font-size: clamp(1rem, 1.2vw, 1.3rem);
+}
+
+.button {
+  background: #1b1b1b;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: clamp(0.5rem, 1vw, 0.7rem) 0.9rem;
+  margin-right: 4%;
+}
+
+.button:hover {
+  background-color: #131313;
+}

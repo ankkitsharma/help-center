@@ -1,0 +1,43 @@
+.footer {
+  border-radius: 1rem;
+  background-color: #1b1b1b;
+  margin: 0.5rem;
+  display: flex;
+  gap: 10rem;
+  padding: 2rem 4rem;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navHeading {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navLinks {
+  padding-left: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.navLink {
+  list-style: none;
+}
+
+.github {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.github img {
+  background-color: white;
+  border-radius: 50%;
+}

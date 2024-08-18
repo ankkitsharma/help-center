@@ -1,0 +1,12 @@
+.cardContainer {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  padding: 6rem 10rem;
+  background-color: rgb(28, 43, 38);
+}
