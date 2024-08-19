@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <Link
-          href={"https://github.com/ankkitsharma"}
+          href={"https://github.com/ankkitsharma/help-center"}
           className={styles.github}
           target="_blank"
         >
