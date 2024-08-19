@@ -18,6 +18,7 @@ https://github.com/ankkitsharma/help-center/
 - Built with Next.js and React for fast and efficient rendering
 - Responsive design for optimal viewing on desktop and mobile devices
 - Easy to customize and extend with new features and functionality
+- Api routes for getting all cards, a specific card and creating a card.
 
 # Built With
 
