@@ -19,6 +19,7 @@ https://github.com/ankkitsharma/help-center/
 - Responsive design for optimal viewing on desktop and mobile devices
 - Easy to customize and extend with new features and functionality
 - Api routes for getting all cards, a specific card and creating a card.
+- Showcased the use of React Query for efficient data fetching and caching from the API.
 
 # Built With
 
