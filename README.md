@@ -1,6 +1,6 @@
 # Help-Center
 
-A customizable Help Center website built with Next.js, Express, and React Query.
+A full-stack website with search and filtering functionality for help cards, built using Nextjs and Express.
 
 # Overview
 
